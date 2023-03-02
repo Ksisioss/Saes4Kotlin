@@ -4,5 +4,6 @@
     <string name="title_prestataire">Prestataire</string>
     <string name="title_calendrier">Calendrier</string>
     <string name="title_map">Map</string>
+    <string name="map">Map</string>
 
 </resources>
