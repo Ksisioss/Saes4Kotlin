@@ -9,23 +9,23 @@
         android:id="@+id/navigation_home"
         android:name="com.example.saes4.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_prestataire" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.saes4.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_prestataire"
+        android:name="com.example.saes4.ui.prestataire.PresataireFragment"
+        android:label="@string/title_prestataire"
+        tools:layout="@layout/fragment_prestataire" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.saes4.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_calendrier"
+        android:name="com.example.saes4.ui.calendrier.CalendrierFragment"
+        android:label="@string/title_calendrier"
+        tools:layout="@layout/fragment_calendrier" />
 
     <fragment
         android:id="@+id/navigation_map"
-        android:name="com.example.saes4.ui.notifications.MapFragment"
-        android:label="map"
+        android:name="com.example.saes4.ui.calendrier.MapFragment"
+        android:label="Map"
         tools:layout="@layout/fragment_map" />
 </navigation>

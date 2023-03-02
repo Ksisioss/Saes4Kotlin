@@ -1,4 +1,4 @@
-package com.example.saes4.ui.notifications
+package com.example.saes4.ui.calendrier
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class MapViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is notifications Fragment"
+        value = "This is map Fragment"
     }
     val text: LiveData<String> = _text
 }

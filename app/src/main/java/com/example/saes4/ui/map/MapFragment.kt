@@ -1,4 +1,4 @@
-package com.example.saes4.ui.notifications
+package com.example.saes4.ui.calendrier
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.saes4.databinding.FragmentNotificationsBinding
+import com.example.saes4.databinding.FragmentMapBinding
 
 class MapFragment : Fragment() {
 
-    private var _binding: FragmentNotificationsBinding? = null
+    private var _binding: FragmentMapBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -25,10 +25,10 @@ class MapFragment : Fragment() {
         val mapViewModel =
             ViewModelProvider(this).get(MapViewModel::class.java)
 
-        _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
+        _binding = FragmentMapBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textNotifications
+        val textView: TextView = binding.textMap
         mapViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
