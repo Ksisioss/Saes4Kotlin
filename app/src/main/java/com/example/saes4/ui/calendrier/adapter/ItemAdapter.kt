@@ -6,14 +6,14 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.saes4.R
+import com.example.saes4.ui.calendrier.CalendrierFragment
 import com.example.saes4.ui.calendrier.model.CalendarItem
 
 class ItemAdapter(
-//    private val calendrierFragment: CalendrierFragment,
+    private val calendrierFragment: CalendrierFragment,
     private val calendarDataset: List<CalendarItem>
 ) : RecyclerView.Adapter<ItemAdapter.CalendarViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CalendarViewHolder {
-        TODO("Not yet implemented")
         val adapterLayout = LayoutInflater.from(parent.context)
             .inflate(R.layout.calendar_item, parent, false)
 
@@ -23,7 +23,6 @@ class ItemAdapter(
 
 
     override fun onBindViewHolder(holder: CalendarViewHolder, position: Int) {
-        TODO("Not yet implemented")
         val item = calendarDataset[position]
         holder.itemCalendaar.text = item.stringResourceId
 
