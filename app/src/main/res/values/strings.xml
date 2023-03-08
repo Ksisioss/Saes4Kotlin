@@ -5,6 +5,15 @@
     <string name="title_calendrier">Calendrier</string>
     <string name="title_map">Map</string>
     <string name="map">Map</string>
+    <string name="spectacle">Spectacle</string>
+    <string name="food">Food</string>
+    <string name="activite">Activite</string>
+    <string name="julien">Julien</string>
+    <string name="category">category</string>
+    <string name="nom_stand">Nom stand</string>
+    <string name="description">Description</string>
+    <string name="merveaux">Merveaux</string>
+    <string name="voir_plus">Voir plus</string>
     <string name="calendar_item_1">calendar_item_1</string>
     <string name="calendar_item_2">calendar_item_2</string>
     <string name="calendar_item_3">calendar_item_3</string>
