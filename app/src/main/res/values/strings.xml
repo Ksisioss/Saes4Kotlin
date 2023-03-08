@@ -5,5 +5,8 @@
     <string name="title_calendrier">Calendrier</string>
     <string name="title_map">Map</string>
     <string name="map">Map</string>
+    <string name="calendar_item_1">calendar_item_1</string>
+    <string name="calendar_item_2">calendar_item_2</string>
+    <string name="calendar_item_3">calendar_item_3</string>
 
 </resources>

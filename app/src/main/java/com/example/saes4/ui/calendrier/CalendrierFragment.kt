@@ -7,7 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.RecyclerView
+import com.example.saes4.R
 import com.example.saes4.databinding.FragmentCalendrierBinding
+import com.example.saes4.ui.calendrier.adapter.ItemAdapter
+import com.example.saes4.ui.calendrier.data.DatasourceCalendar
 
 class CalendrierFragment : Fragment() {
 
@@ -35,6 +39,19 @@ class CalendrierFragment : Fragment() {
         return root
     }
 
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        // Récupérer la liste des item dans le calendrier
+        var calendarDataset = DatasourceCalendar().loadCalendar()
+        // Récupérer le recycle view du calendrier
+        var recyclerView: RecyclerView = view.findViewById(R.id.recycler_view_calendar)
+
+        recyclerView.adapter = ItemAdapter(this, calendarDataset)
+
+        recyclerView.setHasFixedSize(true)
+    }
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
