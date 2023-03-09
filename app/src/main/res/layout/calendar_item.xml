@@ -9,15 +9,20 @@
         android:id="@+id/calendar_event_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/calendar_event_title"
+        app:layout_constraintTop_toTopOf="@+id/calendar_event_title"
         tools:ignore="MissingConstraints"
-        tools:text="@string/calendar_event_title_1" />
+        tools:text="@string/calendar_event_date_1" />
 
     <Button
         android:id="@+id/calendar_event_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingStart="@android:dimen/app_icon_size"
         app:layout_constraintStart_toEndOf="@+id/calendar_event_date"
-        tools:ignore="MissingConstraints"
+        tools:ignore="MissingConstraints,RtlSymmetry"
         tools:text="@string/calendar_event_title_1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
