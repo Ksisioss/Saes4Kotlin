@@ -24,7 +24,7 @@ class ItemAdapter(
 
     override fun onBindViewHolder(holder: CalendarViewHolder, position: Int) {
         val item = calendarDataset[position]
-        holder.itemCalendaar.text = item.stringResourceId
+        holder.itemCalendaar.setText(item.stringResourceId)
 
     }
 

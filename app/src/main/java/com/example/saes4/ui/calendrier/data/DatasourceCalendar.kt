@@ -7,9 +7,9 @@ class DatasourceCalendar {
 
     fun loadCalendar(): List<CalendarItem> {
         return listOf<CalendarItem>(
-            CalendarItem(R.string.calendar_item_1.toString()),
-            CalendarItem(R.string.calendar_item_2.toString()),
-            CalendarItem(R.string.calendar_item_3.toString())
+            CalendarItem(R.string.calendar_item_1, 1),
+            CalendarItem(R.string.calendar_item_2, 2),
+            CalendarItem(R.string.calendar_item_3, 3)
         )
     }
 
