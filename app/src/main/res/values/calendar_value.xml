@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="calendar_item_1">calendar_item_1_activite</string>
-    <string name="calendar_item_2">calendar_item_2_restauration</string>
-    <string name="calendar_item_3">calendar_item_3_spectacle</string>
-    <string name="buttun_title_1">buttun_title_1</string>
+    <string name="calendar_event_date_1">21 april</string>
+    <string name="calendar_event_icon_1">test</string>
+    <string name="calendar_event_title_1">Activity</string>
 </resources>

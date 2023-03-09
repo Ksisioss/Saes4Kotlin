@@ -7,10 +7,21 @@ class DatasourceCalendar {
 
     fun loadCalendar(): List<CalendarItem> {
         return listOf<CalendarItem>(
-            CalendarItem(R.string.calendar_item_1, 1),
-            CalendarItem(R.string.calendar_item_2, 2),
-            CalendarItem(R.string.calendar_item_3, 3)
+            CalendarItem(R.string.calendar_event_date_1, R.string.calendar_event_icon_1, R.string.calendar_event_title_1),
+            CalendarItem(R.string.calendar_event_date_1, R.string.calendar_event_icon_1, R.string.calendar_event_title_1),
+            CalendarItem(R.string.calendar_event_date_1, R.string.calendar_event_icon_1, R.string.calendar_event_title_1),
+            CalendarItem(R.string.calendar_event_date_1, R.string.calendar_event_icon_1, R.string.calendar_event_title_1),
+            CalendarItem(R.string.calendar_event_date_1, R.string.calendar_event_icon_1, R.string.calendar_event_title_1),
+            CalendarItem(R.string.calendar_event_date_1, R.string.calendar_event_icon_1, R.string.calendar_event_title_1),
+            CalendarItem(R.string.calendar_event_date_1, R.string.calendar_event_icon_1, R.string.calendar_event_title_1),
+            CalendarItem(R.string.calendar_event_date_1, R.string.calendar_event_icon_1, R.string.calendar_event_title_1),
+            CalendarItem(R.string.calendar_event_date_1, R.string.calendar_event_icon_1, R.string.calendar_event_title_1),
+            CalendarItem(R.string.calendar_event_date_1, R.string.calendar_event_icon_1, R.string.calendar_event_title_1),
+            CalendarItem(R.string.calendar_event_date_1, R.string.calendar_event_icon_1, R.string.calendar_event_title_1),
+            CalendarItem(R.string.calendar_event_date_1, R.string.calendar_event_icon_1, R.string.calendar_event_title_1),
+            CalendarItem(R.string.calendar_event_date_1, R.string.calendar_event_icon_1, R.string.calendar_event_title_1),
+            CalendarItem(R.string.calendar_event_date_1, R.string.calendar_event_icon_1, R.string.calendar_event_title_1),
+            CalendarItem(R.string.calendar_event_date_1, R.string.calendar_event_icon_1, R.string.calendar_event_title_1),
         )
     }
-
 }

@@ -24,8 +24,9 @@ class ItemAdapter(
 
     override fun onBindViewHolder(holder: CalendarViewHolder, position: Int) {
         val item = calendarDataset[position]
-        holder.calendar_text.setText(item.stringResourceId)
-        holder.calendarDate.text = item.test.toString()
+        holder.event_date.setText(item.date)
+        holder.event_title.setText(item.title)
+
 
     }
 
@@ -35,7 +36,7 @@ class ItemAdapter(
 
 
     class CalendarViewHolder(view: View): RecyclerView.ViewHolder(view) {
-        val calendar_text: TextView = view.findViewById(R.id.calendar_text)
-        val calendarDate: TextView = view.findViewById(R.id.calendar_date)
+        val event_date: TextView = view.findViewById(R.id.calendar_event_date)
+        val event_title: TextView = view.findViewById(R.id.calendar_event_title)
     }
 }

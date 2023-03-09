@@ -6,26 +6,18 @@
     android:layout_height="wrap_content">
 
     <TextView
-        android:id="@+id/calendar_text"
+        android:id="@+id/calendar_event_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints"
-        tools:text="@string/TextExample" />
-
-    <TextView
-        android:id="@+id/calendar_date"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/calendar_text"
-        tools:ignore="MissingConstraints"
-        tools:text="@string/TextExample" />
+        tools:text="@string/calendar_event_title_1" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/calendar_event_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/calendar_date"
+        app:layout_constraintStart_toEndOf="@+id/calendar_event_date"
         tools:ignore="MissingConstraints"
-        tools:text="@string/buttun_title_1" />
+        tools:text="@string/calendar_event_title_1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
