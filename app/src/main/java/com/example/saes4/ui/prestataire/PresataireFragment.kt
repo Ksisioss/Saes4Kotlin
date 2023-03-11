@@ -50,20 +50,11 @@ class PresataireFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
 
-        var DatasourcePrestataire = DataPrestataire().loadPrestataire()
-        var recyclerView: RecyclerView = view.findViewById(R.id.recyclerPrestataire)
+        val DatasourcePrestataire = DataPrestataire().loadPrestataire()
+        val recyclerView: RecyclerView = view.findViewById(R.id.recyclerPrestataire)
 
         recyclerView.adapter = ItemAdapter(this, DatasourcePrestataire)
 
         recyclerView.setHasFixedSize(true)
     }
 }
-
-class Prestataire(
-    var firstname: String,
-    var surname: String,
-    var image: String,
-    val nameStand: String,
-    val category: String,
-    val textPrestataire: String
-)

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="spectacle">Spectacle</string>
+    <string name="food">Food</string>
+    <string name="activite">Activite</string>
+    <string name="julien">Julien</string>
+    <string name="category">category</string>
+    <string name="nom_stand">Nom stand</string>
+    <string name="description">Description</string>
+    <string name="merveaux">Merveaux</string>
+    <string name="voir_plus">Voir plus</string>
+    <string name="prenom1">prenom1</string>
+    <string name="nom1">nom1</string>
+</resources>
