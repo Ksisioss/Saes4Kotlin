@@ -32,9 +32,9 @@ class CalendrierFragment : Fragment() {
         _binding = FragmentCalendrierBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textCalendrier
+//        val textView: TextView = binding.textCalendrier
         calendrierViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
+//            textView.text = it
         }
         return root
     }

@@ -27,12 +27,23 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/primary"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
             android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/calendar_event_date"
             tools:ignore="MissingConstraints,RtlSymmetry"
             tools:layout_editor_absoluteY="5dp"
             tools:text="@string/calendar_event_title_1" />
+
+        <TextView
+            android:id="@+id/calendar_event_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/calendar_event_title"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="5dp"
+            tools:text="@string/calendar_event_descrition_1"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
