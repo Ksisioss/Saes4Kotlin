@@ -6,8 +6,7 @@
     <string name="title_map">Map</string>
     <string name="map">Map</string>
     <string name="TextExample">text_example</string>
-    <string name="nomStand1">stand1</string>
-    <string name="categorie1">cate1</string>
-    <string name="presentatation1">presentation1</string>
+    <string name="retour_au_debut">all</string>
+
 
 </resources>

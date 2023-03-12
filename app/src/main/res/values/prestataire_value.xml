@@ -5,11 +5,25 @@
     <string name="food">Food</string>
     <string name="activite">Activite</string>
     <string name="julien">Julien</string>
-    <string name="category">category</string>
     <string name="nom_stand">Nom stand</string>
     <string name="description">Description</string>
     <string name="merveaux">Merveaux</string>
     <string name="voir_plus">Voir plus</string>
     <string name="prenom1">prenom1</string>
     <string name="nom1">nom1</string>
+    <string name="barquetteDeFredy">la barquette chez Fredy</string>
+    <string name="lucas">lucas</string>
+    <string name="lehmann">lehmann</string>
+    <string name="standMichelle">le stand de michelle</string>
+    <string name="tibault">tibault</string>
+    <string name="lebreuil">lebreuil</string>
+    <string name="FondueMetalique">la fondu metallique</string>
+    <string name="presentatation3">bienvenue a la fondu metalique pour fondre du metal</string>
+    <string name="george">george</string>
+    <string name="nelkson">nelkson</string>
+    <string name="regimeDesVichy">le regime des carottes vichi</string>
+    <string name="presentatation4">Bien le bonjours au stand des carottes vichi</string>
+    <string name="presentatation2">Venez gouter a nos specialitées</string>
+    <string name="presentatation1">les frites comme vous les aimez en douce ou en normal on trouve toujours le bonheur chez fredy</string>
+    <string name="all">all</string>
 </resources>

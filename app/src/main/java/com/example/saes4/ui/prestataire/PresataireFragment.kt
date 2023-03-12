@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
@@ -49,11 +50,21 @@ class PresataireFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
-        val DatasourcePrestataire = DataPrestataire().loadPrestataire()
+        val dataPrestataire = DataPrestataire()
+        val dataSourcePrestataire = DataPrestataire().loadPrestataire()
         val recyclerView: RecyclerView = view.findViewById(R.id.recyclerPrestataire)
+        val btnActivite:Button = view.findViewById(R.id.activite)
+        val btnFood:Button = view.findViewById(R.id.food)
+        val btnSpectacle:Button = view.findViewById(R.id.spectacle)
+        val btnAll:Button = view.findViewById(R.id.all)
 
-        recyclerView.adapter = ItemAdapter(this, DatasourcePrestataire)
+        btnActivite.setOnClickListener { recyclerView.adapter = ItemAdapter(this, dataPrestataire.getPrestataireActivite()) } // appeler la méthode getPrestataireActivite() sur l'instance de DataPrestataire
+        btnFood.setOnClickListener { recyclerView.adapter = ItemAdapter(this, dataPrestataire.getPrestataireFood()) } // appeler la méthode getPrestataireActivite() sur l'instance de DataPrestataire
+        btnSpectacle.setOnClickListener { recyclerView.adapter = ItemAdapter(this, dataPrestataire.getPrestataireSpectacle()) } // appeler la méthode getPrestataireActivite() sur l'instance de DataPrestataire
+        btnAll.setOnClickListener { recyclerView.adapter = ItemAdapter(this, dataSourcePrestataire) } // appeler la méthode getPrestataireActivite() sur l'instance de DataPrestataire
+
+
+        recyclerView.adapter = ItemAdapter(this, dataSourcePrestataire)
 
         recyclerView.setHasFixedSize(true)
     }
