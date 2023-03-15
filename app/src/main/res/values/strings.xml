@@ -7,6 +7,16 @@
     <string name="map">Map</string>
     <string name="TextExample">text_example</string>
     <string name="retour_au_debut">all</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email1">julien@hotmail.fr</string>
+    <string name="entreprise1">fredyLocal</string>
+    <string name="email2">lucas@hotmail.fr</string>
+    <string name="entreprise2">michelleLocal</string>
+    <string name="email3">thibault@hotmail.fr</string>
+    <string name="entreprise3">fonduLocal</string>
+    <string name="email4">george@hotmail.fr</string>
+    <string name="entreprise4">vichiLocal</string>
 
 
 </resources>

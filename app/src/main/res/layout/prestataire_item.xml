@@ -16,6 +16,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
         android:text="@string/julien"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toStartOf="@+id/surname"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,6 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/food"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/standName"
         app:layout_constraintTop_toBottomOf="@+id/standName" />
 
@@ -35,6 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/nom_stand"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/firstname"
         app:layout_constraintTop_toBottomOf="@+id/firstname" />
 
@@ -44,6 +47,7 @@
         android:layout_height="71dp"
         android:layout_marginTop="16dp"
         android:text="@string/description"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/category"
         app:layout_constraintTop_toBottomOf="@+id/category" />
 
@@ -53,15 +57,17 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:text="@string/merveaux"
+        android:textColor="@color/black"
         app:layout_constraintStart_toEndOf="@+id/firstname"
         app:layout_constraintTop_toTopOf="@+id/firstname" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/voirPlus"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
         android:text="@string/voir_plus"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="@+id/imagePrestataire"
         app:layout_constraintTop_toBottomOf="@+id/imagePrestataire" />
 
