@@ -44,9 +44,9 @@ class CalendrierFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         // Récupérer la liste des item dans le calendrier
-        var calendarDataset = DatasourceCalendar().loadCalendar()
+        val calendarDataset = DatasourceCalendar().loadCalendar()
         // Récupérer le recycle view du calendrier
-        var recyclerView: RecyclerView = view.findViewById(R.id.recycler_view_calendar)
+        val recyclerView: RecyclerView = view.findViewById(R.id.recycler_view_calendar)
 
         recyclerView.adapter = ItemAdapter(this, calendarDataset)
 

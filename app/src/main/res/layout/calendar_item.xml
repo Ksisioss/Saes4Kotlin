@@ -43,7 +43,17 @@
             app:layout_constraintTop_toBottomOf="@+id/calendar_event_title"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="5dp"
-            tools:text="@string/calendar_event_descrition_1"/>
+            tools:text="@string/calendar_event_descrition_1"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/buttonVoirPlus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/voir_plus"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@+id/calendar_event_description"
+            tools:layout_editor_absoluteX="5dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -26,4 +26,76 @@
     <string name="presentatation2">Venez gouter a nos specialitées</string>
     <string name="presentatation1">les frites comme vous les aimez en douce ou en normal on trouve toujours le bonheur chez fredy</string>
     <string name="all">all</string>
+
+
+
+    <string name="firstname1">Tom</string>
+    <string name="surname1">Stilinski</string>
+    <string name="nameStand1">La Rotisserie</string>
+    <string name="textPrestataire1">Venez dégusté nos suculents rôtis à la broche.</string>
+    <string name="email1">tom.stilinski@gmail.com</string>
+    <string name="entreprise1">Les Marchands du Roi</string>
+
+    <string name="firstname2">Mike</string>
+    <string name="surname2">Carted</string>
+    <string name="nameStand2">La Forge</string>
+    <string name="textPrestataire2">Vennez vous initier au façonnage du métal chaud pour la créaction d\'outils du quotitien ou encore des armes de combats.</string>
+    <string name="email2">mike.carted@gmail.com</string>
+    <string name="entreprise2">La Compagnie des Épées</string>
+
+    <string name="firstname3">Tony</string>
+    <string name="surname3">Camillio</string>
+    <string name="nameStand3">Armurie Médiéval</string>
+    <string name="textPrestataire3">Venez découvrir nos armes et armures avec les yeux comme avec les mains.</string>
+    <string name="email3">tony.camillio@gmail.com</string>
+    <string name="entreprise3">Les Forgerons d\'Argent</string>
+
+    <string name="firstname4">Anthony</string>
+    <string name="surname4">Griffin</string>
+    <string name="nameStand4">Charpente</string>
+    <string name="textPrestataire4">Vennez découvrir l\'art ancestrale de la charpentrie et aidez nous à restaurer notre chateau</string>
+    <string name="email4">anthony.griffin@gmail.com</string>
+    <string name="entreprise4">Les Bouchers de la Couronne</string>
+
+    <string name="firstname5">Angelo</string>
+    <string name="surname5">Wheeler</string>
+    <string name="nameStand5">Mâitre Verrier</string>
+    <string name="textPrestataire5">Venez vous initier au souflage du verre et apprenez à créer votre propre verrerie. Vous pourrez également découvrir comment sont confectionnés les vitraux.</string>
+    <string name="email5">angelo.wheeler@gmail.com</string>
+    <string name="entreprise5">La Guilde des Tisserands</string>
+
+    <string name="firstname6">Pablo</string>
+    <string name="surname6">Meyer</string>
+    <string name="nameStand6">La Taverne</string>
+    <string name="textPrestataire6">Le tavernier vous ferra gouter a ses meilleurs crues tout comme à la bonne recette traditionnel du pot au feu.</string>
+    <string name="email6">pablo.meyer@gmail.com</string>
+    <string name="entreprise6">Les Guerriers du Château</string>
+
+    <string name="firstname7">Jon</string>
+    <string name="surname7">Karlos</string>
+    <string name="nameStand7">Duel médiéval</string>
+    <string name="textPrestataire7">Venez assistez à nos combats et joutes équestres.</string>
+    <string name="email7">jon.karlos@gmail.com</string>
+    <string name="entreprise7">Les Mercenaires du Duché</string>
+
+    <string name="firstname8">Alexis</string>
+    <string name="surname8">Clerck</string>
+    <string name="nameStand8">Le banquait des troubadours</string>
+    <string name="textPrestataire8">Venez déguster mos délicieux mets pendant que le troubadour vous contera les histoires de l\'époque.</string>
+    <string name="email8">alexis.clerck@gmail.com</string>
+    <string name="entreprise8">JCP</string>
+
+    <string name="firstname9"></string>
+    <string name="surname9"></string>
+    <string name="nameStand9"></string>
+    <string name="textPrestataire9"></string>
+    <string name="email9"></string>
+    <string name="entreprise9"></string>
+
+    <string name="firstname10"></string>
+    <string name="surname10"></string>
+    <string name="nameStand10"></string>
+    <string name="textPrestataire10"></string>
+    <string name="email10"></string>
+    <string name="entreprise10"></string>
 </resources>

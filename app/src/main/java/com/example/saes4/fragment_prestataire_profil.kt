@@ -55,12 +55,12 @@ class fragment_prestataire_profil : Fragment() {
         val imageView: ImageView = view.findViewById(R.id.imageView)
 
 
-        textViewNom.text = prestataire.surname
-        textViewcategory.text = prestataire.category
-        textViewEmail.text = prestataire.email
-        textViewnomStand.text = prestataire.nameStand
-        textViewEntreprise.text = prestataire.entreprise
-        textViewDescription.text = prestataire.textPrestataire
+        textViewNom.setText(prestataire.surname)
+        textViewcategory.setText(prestataire.category)
+        textViewEmail.setText(prestataire.email)
+        textViewnomStand.setText(prestataire.nameStand)
+        textViewEntreprise.setText(prestataire.entreprise)
+        textViewDescription.setText(prestataire.textPrestataire)
         imageView.setImageResource(prestataire.image)
 
 

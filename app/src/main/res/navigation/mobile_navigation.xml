@@ -37,7 +37,15 @@
         android:id="@+id/navigation_calendrier"
         android:name="com.example.saes4.ui.calendrier.CalendrierFragment"
         android:label="@string/title_calendrier"
-        tools:layout="@layout/fragment_calendrier" />
+        tools:layout="@layout/fragment_calendrier" >
+        <action android:id="@+id/pageVoirPlus2"
+            app:destination="@+id/fragment_prestaire_profil">
+            <argument
+                android:name="presta"
+                app:argType="string"
+                />
+        </action>
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_map"
