@@ -34,7 +34,7 @@
             app:layout_constraintStart_toEndOf="@+id/calendar_event_date"
             tools:ignore="MissingConstraints,RtlSymmetry"
             tools:layout_editor_absoluteY="5dp"
-            tools:text="@string/calendar_event_title_1" />
+            tools:text="@string/nameStand1" />
 
         <TextView
             android:id="@+id/calendar_event_description"
@@ -43,7 +43,7 @@
             app:layout_constraintTop_toBottomOf="@+id/calendar_event_title"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="5dp"
-            tools:text="@string/calendar_event_descrition_1"
+            tools:text="@string/textPrestataire1"
             android:visibility="gone"/>
 
         <Button
