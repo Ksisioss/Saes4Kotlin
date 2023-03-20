@@ -28,8 +28,8 @@ class ItemAdapter(
     override fun onBindViewHolder(holder: CalendarViewHolder, position: Int) {
         val item = calendarDataset[position]
         holder.event_date.setText(item.date)
-        holder.event_title.setText(item.title)
-        holder.event_description.setText(item.descrition)
+        holder.event_title.setText(item.nameStand)
+        holder.event_description.setText(item.textPrestataire)
 
         var isExpand = false
         holder.event_title.setOnClickListener {

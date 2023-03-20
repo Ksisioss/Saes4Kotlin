@@ -46,15 +46,16 @@ class fragment_prestataire_profil : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val textViewNom:TextView = view.findViewById(R.id.nom)
-        val textViewcategory: TextView = view.findViewById(R.id.category)
-        val textViewEmail: TextView = view.findViewById(R.id.email)
-        val textViewnomStand: TextView = view.findViewById(R.id.nomStand)
-        val textViewEntreprise: TextView = view.findViewById(R.id.entreprise)
-        val textViewDescription: TextView = view.findViewById(R.id.textPrestataire)
-        val imageView: ImageView = view.findViewById(R.id.imageView)
+        val textViewPrenom:TextView = view.findViewById(R.id.firstnameProfil)
+        val textViewNom:TextView = view.findViewById(R.id.surnameProfil)
+        val textViewcategory: TextView = view.findViewById(R.id.categoryProfil)
+        val textViewEmail: TextView = view.findViewById(R.id.emailProfil)
+        val textViewnomStand: TextView = view.findViewById(R.id.nameStandProfil)
+        val textViewEntreprise: TextView = view.findViewById(R.id.entrepriseProfil)
+        val textViewDescription: TextView = view.findViewById(R.id.textPrestataireProfil)
+        val imageView: ImageView = view.findViewById(R.id.imagePrestataireProfil)
 
-
+        textViewPrenom.setText(prestataire.firstname)
         textViewNom.setText(prestataire.surname)
         textViewcategory.setText(prestataire.category)
         textViewEmail.setText(prestataire.email)

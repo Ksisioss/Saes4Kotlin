@@ -11,10 +11,10 @@ class DataPrestataire {
                 R.string.firstname1,
                 R.string.surname1,
                 R.drawable.prestataire_1,
-                R.string.spectacle,
-                R.string.textPrestataire1,
-                R.string.email1,
                 R.string.nameStand1,
+                R.string.spectacle,
+                R.string.textPrestataire5,
+                R.string.email1,
                 R.string.entreprise1
             )
 //            Prestataire(

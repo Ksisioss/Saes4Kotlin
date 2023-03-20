@@ -2,10 +2,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/button_border"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="10sp">
+    android:layout_margin="10sp"
+    android:background="@drawable/button_border">
 
 
     <TextView
@@ -15,51 +15,53 @@
         android:layout_marginStart="152dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
-        android:text="@string/julien"
         android:textColor="@color/black"
         app:layout_constraintEnd_toStartOf="@+id/surname"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/category"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/food"
-        android:textColor="@color/black"
-        app:layout_constraintStart_toStartOf="@+id/standName"
-        app:layout_constraintTop_toBottomOf="@+id/standName" />
-
-    <TextView
-        android:id="@+id/standName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/nom_stand"
-        android:textColor="@color/black"
-        app:layout_constraintStart_toStartOf="@+id/firstname"
-        app:layout_constraintTop_toBottomOf="@+id/firstname" />
-
-    <TextView
-        android:id="@+id/description"
-        android:layout_width="238dp"
-        android:layout_height="71dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/description"
-        android:textColor="@color/black"
-        app:layout_constraintStart_toStartOf="@+id/category"
-        app:layout_constraintTop_toBottomOf="@+id/category" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/firstname1" />
 
     <TextView
         android:id="@+id/surname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="@string/merveaux"
         android:textColor="@color/black"
         app:layout_constraintStart_toEndOf="@+id/firstname"
-        app:layout_constraintTop_toTopOf="@+id/firstname" />
+        app:layout_constraintTop_toTopOf="@+id/firstname"
+        tools:text="@string/surname1" />
+
+
+    <TextView
+        android:id="@+id/standName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/firstname"
+        app:layout_constraintTop_toBottomOf="@+id/firstname"
+        tools:text="@string/nameStand1" />
+
+    <TextView
+        android:id="@+id/categoryProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/standName"
+        app:layout_constraintTop_toBottomOf="@+id/standName"
+        tools:text="@string/activite" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="238dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/categoryProfil"
+        app:layout_constraintTop_toBottomOf="@+id/categoryProfil"
+        tools:text="@string/textPrestataire1" />
+
 
     <Button
         android:id="@+id/voirPlus"
@@ -67,7 +69,6 @@
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
         android:text="@string/voir_plus"
-        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="@+id/imagePrestataire"
         app:layout_constraintTop_toBottomOf="@+id/imagePrestataire" />
 
@@ -79,6 +80,7 @@
         android:layout_marginTop="32dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/prestataire_1"/>
+        tools:srcCompat="@drawable/prestataire_1"
+        android:contentDescription="@string/image_prestataire_profil" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

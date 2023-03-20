@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="calendar_event_date_1">21 avril</string>
-    <string name="calendar_event_title_1">⚔La Forge | Mike Carted</string>
-    <string name="calendar_event_descrition_1">Venez vous initier au souflage du verre et apprenez à créer votre propre verrerie. Vous pourrez également découvrir comment sont confectionnés les vitraux.</string>
     <string name="calendar_event_date_2">22 avril</string>
-    <string name="calendar_event_title_2">La Taverne | Pablo Meyer</string>
-    <string name="calendar_event_descrition_2">Le tavernier vous ferra gouter a ses meilleurs crues tout comme à la bonne recette traditionnel du pot au feu.</string>
     <string name="calendar_event_date_3">23 avril</string>
-    <string name="calendar_event_title_3">Le banquait des troubadours | Alexis Clerck</string>
-    <string name="calendar_event_descrition_3">Venez déguster mos délicieux mets pendant que le troubadour vous contera les histoires de l\'époque.</string>
     <string name="calendar_event_date_4">24 avril</string>
-    <string name="calendar_event_title_4">Armurie Médiéval | Tony Camillio</string>
-    <string name="calendar_event_descrition_4">Venez découvrir nos armes et armures avec les yeux comme avec les mains.</string>
     <string name="calendar_event_date_5">25 avril</string>
-    <string name="calendar_event_title_5">Charpente | Anthony Griffin</string>
-    <string name="calendar_event_descrition_5">Vennez découvrir l\'art ancestrale de la charpentrie et aidez nous à restaurer notre chateau</string>
     <string name="calendar_event_date_6">26 avril</string>
-    <string name="calendar_event_title_6">Mâitre Verrier | Angelo Wheeler</string>
-    <string name="calendar_event_descrition_6">Venez vous initier au souflage du verre et apprenez à créer votre propre verrerie. Vous pourrez également découvrir comment sont confectionnés les vitraux.</string>
     <string name="calendar_event_date_7">27 avril</string>
-    <string name="calendar_event_title_7">La Rotisserie | Tom Stilinski</string>
-    <string name="calendar_event_descrition_7">Venez dégusté nos suculents rôtis à la broche.</string>
     <string name="calendar_event_date_8">28 avril</string>
-    <string name="calendar_event_title_8">Duel médiéval | Jon Karlos</string>
-    <string name="calendar_event_descrition_8">Venez assistez à nos combats et joutes équestres.</string>
 </resources>

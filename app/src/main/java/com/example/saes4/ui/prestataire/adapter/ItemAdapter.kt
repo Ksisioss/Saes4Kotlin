@@ -4,7 +4,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import android.widget.Filter
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.os.bundleOf
@@ -56,7 +55,7 @@ class ItemAdapter(
         val standName: TextView = view.findViewById(R.id.standName)
         val description: TextView = view.findViewById(R.id.description)
         val imagePrestataire: ImageView = view.findViewById(R.id.imagePrestataire)
-        val category: TextView = view.findViewById(R.id.category)
+        val category: TextView = view.findViewById(R.id.categoryProfil)
         val voirPlus: Button = view.findViewById(R.id.voirPlus)
     }
 }
