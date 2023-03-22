@@ -6,17 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".ui.calendrier.MapFragment">
 
-    <TextView
-        android:id="@+id/text_map"
+
+    <ImageView
+        android:id="@+id/imageView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/carte"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="9dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="92dp"
+        android:rotation="180"
+        android:src="?android:attr/textSelectHandle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
