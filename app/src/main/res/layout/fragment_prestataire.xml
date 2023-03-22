@@ -9,8 +9,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
         android:orientation="horizontal"
         android:weightSum="3"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -18,38 +20,37 @@
             android:id="@+id/activite"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_margin="5dp"
             android:text="@string/activite"
-            android:textSize="10sp" />
+            android:textSize="10sp"
+            tools:ignore="ButtonStyle,SmallSp" />
 
         <Button
             android:id="@+id/food"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_margin="5dp"
             android:text="@string/food"
             android:textSize="10sp"
-            />
+            tools:ignore="ButtonStyle,SmallSp" />
 
         <Button
             android:id="@+id/spectacle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_margin="5dp"
             android:text="@string/spectacle"
-            android:textSize="10sp"/>
+            android:textSize="10sp"
+            tools:ignore="ButtonStyle,SmallSp" />
 
         <Button
             android:id="@+id/all"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_margin="5dp"
+            android:text="@string/all"
             android:textSize="10sp"
-            android:text="@string/all" />
+            tools:ignore="ButtonStyle,SmallSp" />
 
     </LinearLayout>
 

@@ -8,7 +8,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageMap"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
@@ -16,19 +16,105 @@
         android:src="@drawable/carte"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="9dp"
-        android:layout_height="13dp"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="92dp"
-        android:rotation="180"
-        android:src="?android:attr/textSelectHandle"
+        android:id="@+id/marker1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/marker"
+        app:layout_constraintBottom_toBottomOf="@+id/imageMap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView4" />
+        app:layout_constraintTop_toTopOf="@+id/imageMap"
+        app:layout_constraintVertical_bias="0.46" />
+
+    <ImageView
+        android:id="@+id/marker2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/marker"
+        app:layout_constraintBottom_toBottomOf="@+id/imageMap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageMap"
+        app:layout_constraintVertical_bias="0.40" />
+
+    <ImageView
+        android:id="@+id/marker3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/marker"
+        app:layout_constraintBottom_toBottomOf="@+id/imageMap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageMap"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <ImageView
+        android:id="@+id/marker4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/marker"
+        app:layout_constraintBottom_toBottomOf="@+id/imageMap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageMap"
+        app:layout_constraintVertical_bias="0.27" />
+
+    <ImageView
+        android:id="@+id/marker5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/marker"
+        app:layout_constraintBottom_toBottomOf="@+id/imageMap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageMap"
+        app:layout_constraintVertical_bias="0.64" />
+
+    <ImageView
+        android:id="@+id/marker6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/marker"
+        app:layout_constraintBottom_toBottomOf="@+id/imageMap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.60"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageMap"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <ImageView
+        android:id="@+id/marker7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/marker"
+        app:layout_constraintBottom_toBottomOf="@+id/imageMap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageMap"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <ImageView
+        android:id="@+id/marker8"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/marker"
+        app:layout_constraintBottom_toBottomOf="@+id/imageMap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageMap"
+        app:layout_constraintVertical_bias="0.39" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
