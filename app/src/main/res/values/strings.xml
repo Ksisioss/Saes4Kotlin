@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SAEs4</string>
+    <string name="app_name">Le royaume oublié</string>
     <string name="title_home">Home</string>
     <string name="title_prestataire">Prestataire</string>
     <string name="title_calendrier">Calendrier</string>
@@ -10,6 +10,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="image_prestataire_profil">image_prestataire_profil</string>
+    <string name="logo_sae">logo saé</string>
     <!--    <string name="email1">julien@hotmail.fr</string>-->
 <!--    <string name="entreprise1">fredyLocal</string>-->
 <!--    <string name="email2">lucas@hotmail.fr</string>-->
