@@ -53,6 +53,9 @@
         android:layout_width="218dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/categoryProfil"
         app:layout_constraintTop_toBottomOf="@+id/categoryProfil"
         tools:text="@string/textPrestataire1" />
@@ -61,11 +64,12 @@
     <Button
         android:id="@+id/voirPlus"
         android:layout_width="wrap_content"
-        android:layout_height="48dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
         android:text="@string/voir_plus"
         app:layout_constraintStart_toStartOf="@+id/imagePrestataire"
-        app:layout_constraintTop_toBottomOf="@+id/imagePrestataire" />
+        app:layout_constraintEnd_toEndOf="@+id/imagePrestataire"
+        app:layout_constraintTop_toBottomOf="@+id/imagePrestataire"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
     <ImageView
         android:id="@+id/imagePrestataire"

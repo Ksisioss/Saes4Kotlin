@@ -10,10 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <LinearLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/text_home"
@@ -32,80 +31,59 @@
                 android:id="@+id/logo_sae_home"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="100dp"
                 android:layout_marginTop="25dp"
-                android:layout_marginRight="100dp"
+
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/logo_sae"
                 android:scaleType="centerCrop"
-                android:src="@drawable/logo_sae_white"
+                android:src="@drawable/logo_sae_black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/text_home" />
 
 
             <TextView
-                android:id="@+id/home_text"
+                android:id="@+id/card_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginEnd="20dp"
-                android:text="@string/app_name"
+                android:text="@string/activite"
+                android:textAlignment="center"
                 android:textSize="20sp"
-                android:visibility="gone"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/logo_sae_home" />
 
-            <GridLayout
-                android:id="@+id/grid_layout"
+            <ImageView
+                android:id="@+id/card_image"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:columnCount="1"
-                android:rowCount="3"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/image_prestataire_profil"
+                android:src="@drawable/prestataire_1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/logo_sae_home" >
+                app:layout_constraintTop_toBottomOf="@+id/card_title" />
 
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/card_view"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_row="0"
-                    android:layout_rowWeight="1"
-                    android:layout_column="0"
-                    android:layout_columnWeight="1"
-                    android:layout_gravity="fill"
-                    android:layout_margin="10dp"
-                    android:elevation="3dp"
-                    app:cardCornerRadius="10dp">
+            <!--            <TextView-->
+            <!--                android:id="@+id/card_text"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="@string/home_text_activity"-->
+            <!--                app:layout_constraintEnd_toEndOf="parent"-->
+            <!--                app:layout_constraintStart_toStartOf="parent"-->
+            <!--                app:layout_constraintTop_toBottomOf="@+id/card_image" />-->
 
-                    <TextView
-                        android:id="@+id/card_title"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/activite" />
-
-                    <ImageView
-                        android:id="@+id/card_image"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/prestataire_1"
-                        android:contentDescription="@string/image_prestataire_profil" />
-
-                    <TextView
-                        android:id="@+id/card_text"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/home_text_activity" />
-
-                </androidx.cardview.widget.CardView>
-
-            </GridLayout>
+            <Button
+                android:id="@+id/card_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/home_text_activity"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/card_image" />
 
 
-        </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

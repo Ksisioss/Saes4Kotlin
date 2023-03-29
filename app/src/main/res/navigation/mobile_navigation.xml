@@ -9,7 +9,7 @@
         android:id="@+id/navigation_home"
         android:name="com.example.saes4.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_prestataire" />
+        tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_prestataire"
@@ -50,7 +50,7 @@
         android:id="@+id/fragment_prestaire_profil"
         android:name="com.example.saes4.fragment_prestataire_profil"
         android:label="@string/title_prestataire_profil"
-        tools:layout="@layout/fragment_prestataire" >
+        tools:layout="@layout/fragment_prestataire_profil" >
         <action
             android:id="@+id/action_fragment_prestaire_profil_pop2"
             app:popUpTo="@id/fragment_prestaire_profil"
