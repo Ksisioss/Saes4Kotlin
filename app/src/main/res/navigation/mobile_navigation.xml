@@ -41,7 +41,7 @@
 
     <fragment
         android:id="@+id/navigation_map"
-        android:name="com.example.saes4.ui.calendrier.MapFragment"
+        android:name="com.example.saes4.ui.map.MapFragment"
         android:label="Map"
         tools:layout="@layout/fragment_map" >
     </fragment>

@@ -1,4 +1,4 @@
-package com.example.saes4.ui.calendrier
+package com.example.saes4.ui.map
 
 import android.os.Bundle
 import android.view.LayoutInflater
