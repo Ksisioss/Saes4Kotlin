@@ -15,35 +15,27 @@
         android:id="@+id/navigation_prestataire"
         android:name="com.example.saes4.ui.prestataire.PresataireFragment"
         android:label="@string/title_prestataire"
-        tools:layout="@layout/fragment_prestataire" >
-        <action android:id="@+id/pageVoirPlus"
+        tools:layout="@layout/fragment_prestataire">
+        <action
+            android:id="@+id/pageVoirPlus"
             app:destination="@+id/fragment_prestaire_profil">
             <argument
                 android:name="presta"
-                app:argType="string"
-                />
+                app:argType="string" />
         </action>
     </fragment>
-
-    <fragment
-        android:id="@+id/fragment_prestaire_profil"
-        android:name="com.example.saes4.fragment_prestataire_profil"
-        android:label="@string/title_prestataire"
-        tools:layout="@layout/fragment_prestataire" >
-    </fragment>
-
 
     <fragment
         android:id="@+id/navigation_calendrier"
         android:name="com.example.saes4.ui.calendrier.CalendrierFragment"
         android:label="@string/title_calendrier"
-        tools:layout="@layout/fragment_calendrier" >
-        <action android:id="@+id/pageVoirPlus2"
+        tools:layout="@layout/fragment_calendrier">
+        <action
+            android:id="@+id/pageVoirPlus2"
             app:destination="@+id/fragment_prestaire_profil">
             <argument
                 android:name="presta"
-                app:argType="string"
-                />
+                app:argType="string" />
         </action>
     </fragment>
 
@@ -51,5 +43,19 @@
         android:id="@+id/navigation_map"
         android:name="com.example.saes4.ui.calendrier.MapFragment"
         android:label="Map"
-        tools:layout="@layout/fragment_map" />
+        tools:layout="@layout/fragment_map" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_prestaire_profil"
+        android:name="com.example.saes4.fragment_prestataire_profil"
+        android:label="@string/title_prestataire_profil"
+        tools:layout="@layout/fragment_prestataire" >
+        <action
+            android:id="@+id/action_fragment_prestaire_profil_pop2"
+            app:popUpTo="@id/fragment_prestaire_profil"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
 </navigation>
