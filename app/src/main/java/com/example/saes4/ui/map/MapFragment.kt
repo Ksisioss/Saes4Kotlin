@@ -36,6 +36,7 @@ class MapFragment : Fragment() {
 //            textView.text = it
         }
 
+
         return root
     }
 
@@ -75,7 +76,6 @@ class MapFragment : Fragment() {
             Navigation.findNavController(view).navigate(R.id.fragment_prestaire_profil, bundleOf("presta" to "0"))
         }
     }
-
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null

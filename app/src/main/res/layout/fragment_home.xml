@@ -36,42 +36,23 @@
 
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/logo_sae"
-                android:src="@drawable/logo_sae_black"
+                android:src="@drawable/image_vitrine_principal"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/text_home" />
 
-
-            <TextView
-                android:id="@+id/card_title"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/activite"
-                android:textAlignment="center"
-                android:textSize="20sp"
+            <Button
+                android:id="@+id/buttonForAllPrestataire"
+                android:layout_width="404dp"
+                android:layout_height="301dp"
+                android:layout_marginTop="50dp"
+                android:text="Button"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.444"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/logo_sae_home" />
-
-            <ImageView
-                android:id="@+id/card_image"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:contentDescription="@string/image_prestataire_profil"
-                android:src="@drawable/image_vitrine_principal"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/card_title" />
-
-            <TextView
-                android:id="@+id/card_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/home_text_activity"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/card_image" />
+                app:layout_constraintTop_toBottomOf="@+id/logo_sae_home"
+                app:layout_constraintVertical_bias="0.0" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
