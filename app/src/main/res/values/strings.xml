@@ -12,6 +12,8 @@
     <string name="image_prestataire_profil">image_prestataire_profil</string>
     <string name="logo_sae">logo saé</string>
     <string name="title_prestataire_profil">Prestataire profil</string>
+    <string name="carte">L\'image de la carte</string>
+    <string name="marker">Point sur la carte</string>
     <!--    <string name="email1">julien@hotmail.fr</string>-->
 <!--    <string name="entreprise1">fredyLocal</string>-->
 <!--    <string name="email2">lucas@hotmail.fr</string>-->
