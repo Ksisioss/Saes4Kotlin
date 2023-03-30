@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginBottom="50dp"
     tools:context=".ui.map.MapFragment">
 
 
@@ -26,9 +27,9 @@
         android:contentDescription="@string/marker"
         android:src="@drawable/marker"
         app:layout_constraintBottom_toBottomOf="@+id/imageMap"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageMap"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageMap"
         app:layout_constraintTop_toTopOf="@+id/imageMap"
         app:layout_constraintVertical_bias="0.46" />
 
@@ -39,9 +40,9 @@
         android:contentDescription="@string/marker"
         android:src="@drawable/marker"
         app:layout_constraintBottom_toBottomOf="@+id/imageMap"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageMap"
         app:layout_constraintHorizontal_bias="0.21"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageMap"
         app:layout_constraintTop_toTopOf="@+id/imageMap"
         app:layout_constraintVertical_bias="0.40" />
 
@@ -52,9 +53,9 @@
         android:contentDescription="@string/marker"
         android:src="@drawable/marker"
         app:layout_constraintBottom_toBottomOf="@+id/imageMap"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageMap"
         app:layout_constraintHorizontal_bias="0.47"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageMap"
         app:layout_constraintTop_toTopOf="@+id/imageMap"
         app:layout_constraintVertical_bias="0.28" />
 
@@ -65,9 +66,9 @@
         android:contentDescription="@string/marker"
         android:src="@drawable/marker"
         app:layout_constraintBottom_toBottomOf="@+id/imageMap"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageMap"
         app:layout_constraintHorizontal_bias="0.62"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageMap"
         app:layout_constraintTop_toTopOf="@+id/imageMap"
         app:layout_constraintVertical_bias="0.27" />
 
@@ -78,9 +79,9 @@
         android:contentDescription="@string/marker"
         android:src="@drawable/marker"
         app:layout_constraintBottom_toBottomOf="@+id/imageMap"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageMap"
         app:layout_constraintHorizontal_bias="0.21"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageMap"
         app:layout_constraintTop_toTopOf="@+id/imageMap"
         app:layout_constraintVertical_bias="0.64" />
 
@@ -91,9 +92,9 @@
         android:contentDescription="@string/marker"
         android:src="@drawable/marker"
         app:layout_constraintBottom_toBottomOf="@+id/imageMap"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageMap"
         app:layout_constraintHorizontal_bias="0.60"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageMap"
         app:layout_constraintTop_toTopOf="@+id/imageMap"
         app:layout_constraintVertical_bias="0.65" />
 
@@ -104,9 +105,9 @@
         android:contentDescription="@string/marker"
         android:src="@drawable/marker"
         app:layout_constraintBottom_toBottomOf="@+id/imageMap"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageMap"
         app:layout_constraintHorizontal_bias="0.65"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageMap"
         app:layout_constraintTop_toTopOf="@+id/imageMap"
         app:layout_constraintVertical_bias="0.44" />
 
@@ -117,9 +118,9 @@
         android:contentDescription="@string/marker"
         android:src="@drawable/marker"
         app:layout_constraintBottom_toBottomOf="@+id/imageMap"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageMap"
         app:layout_constraintHorizontal_bias="0.78"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageMap"
         app:layout_constraintTop_toTopOf="@+id/imageMap"
         app:layout_constraintVertical_bias="0.39" />
 
