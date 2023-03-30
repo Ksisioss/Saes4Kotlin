@@ -33,9 +33,9 @@ class HomeFragment : Fragment() {
             Navigation.findNavController(root).navigate(R.id.navigation_prestataire,null)
         }
 
-        val textView: TextView = binding.textHome
+//        val textView: TextView = binding.textHome
         homeViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
+//            textView.text = it
         }
 
         return root
