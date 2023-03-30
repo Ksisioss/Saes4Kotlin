@@ -45,6 +45,7 @@ class ItemAdapter(
         }
 
         holder.buttonVoirPlus.setOnClickListener {view: View->
+            Navigation.findNavController(view).popBackStack()
             Navigation.findNavController(view).navigate(R.id.fragment_prestaire_profil, bundleOf("presta" to (position%4).toString()))
         }
     }

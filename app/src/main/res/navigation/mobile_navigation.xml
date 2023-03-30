@@ -46,7 +46,17 @@
         android:id="@+id/navigation_map"
         android:name="com.example.saes4.ui.map.MapFragment"
         android:label="Map"
-        tools:layout="@layout/fragment_map"></fragment>
+        tools:layout="@layout/fragment_map">
+
+        <action
+            android:id="@+id/pageVoirPlus3"
+            app:destination="@+id/fragment_prestaire_profil">
+            <argument
+                android:name="presta"
+                app:argType="string" />
+        </action>
+
+    </fragment>
 
     <fragment
         android:id="@+id/fragment_prestaire_profil"

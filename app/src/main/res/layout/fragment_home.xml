@@ -33,7 +33,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
-
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/logo_sae"
                 android:src="@drawable/image_vitrine_principal"

@@ -7,6 +7,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.os.bundleOf
+import androidx.navigation.NavOptions
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.example.saes4.R
@@ -18,7 +19,7 @@ class ItemAdapter(
     private val dataset: List<Prestataire>,
 
 
-) : RecyclerView.Adapter<ItemAdapter.PrestataireViewHolder>() {
+    ) : RecyclerView.Adapter<ItemAdapter.PrestataireViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PrestataireViewHolder {
         // create a new view
@@ -39,7 +40,10 @@ class ItemAdapter(
         holder.category.setText(item.category)
         holder.imagePrestataire.setImageResource(item.image)
         holder.voirPlus.setOnClickListener {view: View->
+
+            Navigation.findNavController(view).popBackStack()
             Navigation.findNavController(view).navigate(R.id.fragment_prestaire_profil, bundleOf("presta" to position.toString()))
+
         }
 
     }
@@ -59,6 +63,3 @@ class ItemAdapter(
         val voirPlus: Button = view.findViewById(R.id.voirPlus)
     }
 }
-
-
-
