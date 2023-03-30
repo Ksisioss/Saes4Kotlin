@@ -3,6 +3,7 @@ package com.example.saes4.ui.home
 import android.os.Bundle
 import android.view.*
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
@@ -26,7 +27,7 @@ class HomeFragment : Fragment() {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val button: Button = binding.buttonForAllPrestataire
+        val button: ImageView = binding.buttonForAllPrestataire
         button.setOnClickListener {
             Navigation.findNavController(root).popBackStack()
             Navigation.findNavController(root).navigate(R.id.navigation_prestataire,null)
